@@ -1,7 +1,7 @@
 import phonenumbers
 from phonenumbers import timezone
 from phonenumbers import carrier
-x=phonenumbers.parse("+254717902628",None)
+x=phonenumbers.parse("+254717xxxxx",None)
 print(x)
 print(phonenumbers.is_valid_number(x))
 i=1
