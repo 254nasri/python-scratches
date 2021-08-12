@@ -1,10 +1,10 @@
 from twilio.rest import Client
-acc='AC123f01fc6e1258e668945157143d6156'
-auth='1001bd2bbdbc6eba006ced26920f934a'
+acc='ACxxxxxxxxxxxxxxxxxx'
+auth='10xxxxxxxxxxxxxxxxxx'
 client=(acc,auth)
 
 from_whatsapp_number='whatsapp:+14155238886'
-to_whatsapp_number='whatsapp:+254717902628'
+to_whatsapp_number='whatsapp:+254717xxxxx'
 msg='hello friend'
 client.messages.create(body=msg,
                        from_=from_whatsapp_number,
